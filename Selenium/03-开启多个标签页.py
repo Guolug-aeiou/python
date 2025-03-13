@@ -1,6 +1,6 @@
 from time import sleep
 
-from tools.driverchrome.init_chrome_driver import get_driver
+from a_tools.driverchrome.init_chrome_driver import get_driver
 
 
 def main():

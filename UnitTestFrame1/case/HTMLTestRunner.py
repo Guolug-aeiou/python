@@ -102,11 +102,11 @@ from xml.sax import saxutils
 # The redirectors below are used to capture output during testing. Output
 # sent to sys.stdout and sys.stderr are automatically captured. However
 # in some cases sys.stdout is already cached before HTMLTestRunner is
-# invoked (e.g. calling logging.basicConfig). In order to capture those
+# invoked (e.g. calling logging_study12.basicConfig). In order to capture those
 # output, use the redirectors for the cached stream.
 #
 # e.g.
-#   >>> logging.basicConfig(stream=HTMLTestRunner.stdout_redirector)
+#   >>> logging_study12.basicConfig(stream=HTMLTestRunner.stdout_redirector)
 #   >>>
 
 class OutputRedirector(object):

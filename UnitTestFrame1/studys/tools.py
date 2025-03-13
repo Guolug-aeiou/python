@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 @Project: project_Python
-@File   : tools.py
+@File   : a_tools.py
 @Author : guolu
 @Date   : 2025/3/2 19:58
 @Desc   : 加法函数
@@ -16,4 +16,4 @@ def add(args1,args2):
     return args1+args2
 
 def func():
-    print('我是 tools 模块的 func 函数!')
+    print('我是 a_tools 模块的 func 函数!')

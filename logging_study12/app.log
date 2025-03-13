@@ -1,0 +1,5 @@
+2025-03-13 18:52:52 | DEBUG    | logging_view.main:14 | MainThread | This is a debug message
+2025-03-13 18:52:52 | INFO     | logging_view.main:15 | MainThread | This is an info message
+2025-03-13 18:52:52 | WARNING  | logging_view.main:16 | MainThread | This is a warning message
+2025-03-13 18:52:52 | ERROR    | logging_view.main:17 | MainThread | This is an error message
+2025-03-13 18:52:52 | CRITICAL | logging_view.main:18 | MainThread | This is a critical message
