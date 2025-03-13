@@ -1,8 +1,14 @@
 import time
+from pathlib import Path
+
 from selenium.webdriver.support.wait import WebDriverWait
+
+from a_tools.logging_format.logger_factory import LoggerFactory
 
 
 class Base:
+    # 获取日志对象（单例模式）
+
     def __init__(self, driver):
         self.driver = driver
 

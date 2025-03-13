@@ -10,7 +10,6 @@ init(autoreset=True)
 
 class LoggerFactory:
     """日志工厂类，用于创建预配置的日志对象"""
-
     # 日志级别颜色映射
     LOG_COLORS = {
         logging.DEBUG: Fore.CYAN,
@@ -19,10 +18,8 @@ class LoggerFactory:
         logging.ERROR: Fore.RED,
         logging.CRITICAL: Fore.MAGENTA + Style.BRIGHT,
     }
-
     # 单例模式缓存
     _loggers = {}
-
     @classmethod
     def get_logger(
             cls,
@@ -33,7 +30,6 @@ class LoggerFactory:
             datefmt: str = "%Y-%m-%d %H:%M:%S"
     ) -> logging.Logger:
         """获取或创建预配置的日志对象
-
         Args:
             name: 日志器名称（用于区分不同模块）
             level: 日志级别（DEBUG/INFO/WARNING/ERROR/CRITICAL）

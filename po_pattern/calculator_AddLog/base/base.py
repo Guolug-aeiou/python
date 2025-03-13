@@ -1,9 +1,18 @@
 import time
+from pathlib import Path
+
 from selenium.webdriver.support.wait import WebDriverWait
+
+from a_tools.logging_format.logger_factory import LoggerFactory
 
 
 class Base:
     def __init__(self, driver):
+        self.logger = LoggerFactory.get_logger(
+            name="Test_add",
+            level="DEBUG",
+            log_file=Path(__file__).parent / "../log/Test_add.log",
+        )
         self.driver = driver
 
     # 查找元素
