@@ -1,0 +1,26 @@
+[
+  {
+    "desc": "1_用户名 and 1_密码",
+    "username": "admin",
+    "password": "123456",
+    "expect": "登录成功!"
+  },
+  {
+    "desc": "1_用户名 and 0_密码",
+    "username": "admin",
+    "password": "1234561",
+    "expect": "您输入的用户名或密码错误!"
+  },
+  {
+    "desc": "0_用户名 and 1_密码",
+    "username": "admin1",
+    "password": "123456",
+    "expect": "您输入的用户名或密码错误!"
+  },
+  {
+    "desc": "0_用户名 and 0_密码",
+    "username": "admin1",
+    "password": "1234561",
+    "expect": "您输入的用户名或密码错误!"
+  }
+]
