@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-from po_pattern.calculator_AddLog import page
-from po_pattern.calculator_AddLog.base.base import Base
+from po_pattern.calculator_log_test import page
+from po_pattern.calculator_log_test.base.base import Base
 
 
 class PageCalc(Base):

@@ -1,8 +1,8 @@
 import unittest
 from parameterized import parameterized
-from po_pattern.calculator_AddLog.base.get_driver import GetDriver
-from po_pattern.calculator_AddLog.page.page_calc import PageCalc
-from po_pattern.calculator_AddLog.scripts.test import get_param
+from po_pattern.calculator_log_test.base.get_driver import GetDriver
+from po_pattern.calculator_log_test.page.page_calc import PageCalc
+from po_pattern.calculator_log_test.scripts.test import get_param
 
 
 class TestAdd(unittest.TestCase):
