@@ -12,6 +12,7 @@ def main():
         "appPackage": "com.chaoxing.mobile",
         "appActivity": ".main.ui.MainTabActivity",
 
+
     }
     driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',
                               options=UiAutomator2Options().load_capabilities(desired_caps))

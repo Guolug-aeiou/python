@@ -35,3 +35,14 @@ def paste_text(driver, element):
      .send_keys('v')
      .key_up(modifier)
      .perform())
+
+from appium import webdriver
+# 获取元素中心点坐标
+def get_element_centre(element):
+    # 获取元素的位置和大小
+    location = element.location
+    size = element.size
+    # 计算元素的中心点坐标
+    x = location['x'] + size['width'] / 2
+    y = location['y'] + size['height'] / 2
+    return [x,y]
