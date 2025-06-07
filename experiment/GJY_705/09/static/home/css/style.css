@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.page-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.blog-categories,
+.article-list,
+.popular-articles {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.popular-article-item {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.blog-detail {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.blog-image {
+  margin-bottom: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+.page-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* login and register from*/
+.form-inline label {
+  margin-right: 10px;
+  width: 130px;
+}

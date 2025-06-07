@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.page-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.admin-menu {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.blog-list, .admin-form {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.admin-form {
+  margin-bottom: 0;
+}
+
+.panel {
+  margin-top: 20px;
+}
+
+.page-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.form-inline label {
+  margin-bottom: 0;
+}
+
+/* login and register from*/
+.form-inline label {
+  margin-right: 10px;
+  width: 130px;
+}
