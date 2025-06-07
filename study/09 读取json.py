@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 @Project: project_Python
-@File   : 09 读取json.py
+@File   : 10 读取json.py
 @Author : guolu
 @Date   : 2025/3/2 14:28
 @Desc   : 读取json文件

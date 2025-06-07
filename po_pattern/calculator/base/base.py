@@ -1,9 +1,6 @@
 import time
-from pathlib import Path
 
 from selenium.webdriver.support.wait import WebDriverWait
-
-from a_tools.logging_format.logger_factory import LoggerFactory
 
 
 class Base:
